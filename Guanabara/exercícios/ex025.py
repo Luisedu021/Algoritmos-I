@@ -1,0 +1,6 @@
+nome=str(input('Digite seu nome completo:'))
+nome=nome.lower()
+nome=nome.title()
+nome=nome.count('Silva')
+if  nome>=0 : print('Seu nome tem SILVA')
+else: print('Seu nome não tem SILVA')
